@@ -5,6 +5,7 @@ const appliancesSchema = new Schema({
   fanRoomA: String,
   bulbRoomB: String,
   fanRoomB: String,
+  door: String,
 });
 
 let Appliances = mongoose.model("Appliances", appliancesSchema);
